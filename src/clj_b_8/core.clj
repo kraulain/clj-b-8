@@ -11,7 +11,11 @@
 
 (.-x point) ;;Java: point.x
 
+(set! (.-x point) 100) ;; Java: point.x = 100;
+
 ;; Accession static methods
+
+System
 
 (System/currentTimeMillis) ;;Java: System.currentTimeMillis();
 
@@ -22,3 +26,11 @@
 (java.util.Date. (System/currentTimeMillis)) ;;Java: new java.util.Date(System/currentTimeMillis());
 
 (new java.util.Date)
+
+
+;; Accessing enums
+
+java.nio.charset.StandardCharsets
+
+(java.nio.charset.StandardCharsets/UTF_8)
+
