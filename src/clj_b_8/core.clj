@@ -1,6 +1,9 @@
+
 (ns clj-b-8.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+;; Accessing Java Methods
+
+(.toString x) ;; Java: x.toString();
+
+(.addToVec v1 v2) ;; Java v1.addtoVec(v2);
+
