@@ -12,3 +12,10 @@
 
 (.-x point) ;;Java: point.x
 
+
+;; Accession static methods
+
+(System/currentTimeMillis) ;;Java: System.currentTimeMillis();
+
+
+
